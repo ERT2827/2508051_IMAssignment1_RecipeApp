@@ -1,0 +1,65 @@
+{
+    "recipes": [
+        {
+            "name": "tomato ravioli",
+            "tags": "Kosher, Vegan",
+            "id": 0,
+            "instructions": "I cooka da pasta",
+            "isFavourite": false
+        },{
+            "name": "Seal Soup",
+            "tags": "Meaty",
+            "id": 1,
+            "instructions": "Dubiously worth the emotional damage",
+            "isFavourite": false
+        },{
+            "name": "Pineapple ham pizza",
+            "tags": "Meaty",
+            "id": 2,
+            "instructions": "I cooka da pizza",
+            "isFavourite": false
+        },{
+            "name": "Pork buns",
+            "tags": "Meaty",
+            "id": 3,
+            "instructions": "Until you have one of these you are never a whole man.",
+            "isFavourite": false
+        },{
+            "name": "Margherita pizza",
+            "tags": "Kosher",
+            "id": 4,
+            "instructions": "I cooka da pizza",
+            "isFavourite": false
+        },{
+            "name": "Veggie Balls",
+            "tags": "Kosher, Vegan",
+            "id": 5,
+            "instructions": "Looks a little like poop, decidedly delicious",
+            "isFavourite": false
+        },{
+            "name": "Beef Burgers",
+            "tags": "Meaty, Kosher",
+            "id": 6,
+            "instructions": "With your choice of toppings",
+            "isFavourite": false
+        },{
+            "name": "Chicken Stir Fry",
+            "tags": "Meaty, Kosher",
+            "id": 7,
+            "instructions": "A surprisingly easy staple",
+            "isFavourite": false
+        },{
+            "name": "Two minute noodles with relish",
+            "tags": "Kosher",
+            "id": 8,
+            "instructions": "For those of us who want to eat good even at the worst of times.",
+            "isFavourite": false
+        },{
+            "name": "Caviar Scallops",
+            "tags": "",
+            "id": 9,
+            "instructions": "For the fanciest among you",
+            "isFavourite": false
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The css i Have is for a mixture of my sanity
+and some features of the site. Seriously, I'd probably
+die if I had to look at default html font.
+That said, I did not intend this to look pretty,
+as you can see. */
+
+.recipeName:hover{
+    color: blue;
+    cursor: default;
+}
+
+.hidden{
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons button{
+    margin: 0.1rem;
+    color: whitesmoke;
+    background-color: blue;
+    font-size: 1.2rem;
+}
+
+.filterInput{
+    margin: 0.3rem;    
+    font-size: larger;
+}
+
+.nameRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.nameRow img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.2rem;
+    margin-left: 0.3rem;
+}
+
+.nameRow img:hover{
+    filter: invert(82%) sepia(92%) saturate(6021%) hue-rotate(358deg) brightness(105%) contrast(101%);
+}
