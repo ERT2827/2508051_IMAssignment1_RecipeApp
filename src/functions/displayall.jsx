@@ -1,8 +1,11 @@
-// This code is responsible for resetting the display status of 
-// all elements
+/* This code is responsible for resetting the display status of 
+all elements */ 
+
+// It's just a more streamlined version of the normal filter
 
 function DisplayAll() {
     const divs = document.querySelectorAll(".recipeHolder");
+    // This gets the divs that hold the recipes
     
     // It just sets everything back to basic
 

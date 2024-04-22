@@ -6,8 +6,10 @@ function filterRecipes(mode) {
     const validOptions = [];
 
     const recipeHolders = document.querySelectorAll(".recipeHolder");
+    // This gets the divs that hold the recipes
 
     const recip = data.recipes;
+    // This makes the recipes usable
 
     /*It detects if a recipe has the tag in the JSON.
     If it does, then it adds it to a whitelist.*/

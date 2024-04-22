@@ -6,11 +6,17 @@ function filterFavourites() {
     /*In case it isn't obvious, this is heavily reusing my filter
     other filtering code, but since that works well, I feel as though that's fine.*/
     
-    const validOptions = [];
+    const validOptions = []; //This array is the valid options
 
     const recipeHolders = document.querySelectorAll(".recipeHolder");
+    // this is an array of all the recipe holders
 
     const recip = data.recipes;
+    /* This gets the recipes from within the data.
+    The need to do this was kind of annoying, but 
+    at the same time it does allow me to have multiple
+    arrays in one JSON and is the beginning of a proper
+    database. */
 
     recip.forEach(i => {
         if(i.isFavourite){

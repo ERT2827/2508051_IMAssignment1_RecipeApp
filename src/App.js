@@ -1,6 +1,6 @@
 import './App.css';
-import "./recipeDisplay"
-import RecipeDisplay from './recipeDisplay';
+import "./functions/recipeDisplay"
+import RecipeDisplay from './functions/recipeDisplay';
 import data from "./recipes.json";
 import DisplayAll from './functions/displayall';
 import filterRecipes from "./functions/displayFiltered";
@@ -12,6 +12,7 @@ import filterFavourites from './functions/filterFavs';
 
 function App() {
   const [filter, setFilter] = useState('');
+  //This string is used as the filter parameter
 
 
   console.log(data);
@@ -20,6 +21,7 @@ function App() {
       <h1>Recipes:</h1>
 
       <input className='filterInput' type='text' value={filter} onChange={event => {setFilter(event.target.value); Search(filter);}}/>
+      {/* This text box is used to search for specific items. */}
 
       {/* These buttons are used to select the various filter modes*/}
       <section className='buttons'>
